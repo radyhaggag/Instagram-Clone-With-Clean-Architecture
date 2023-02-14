@@ -1,6 +1,9 @@
 # Instagram-Clone-With-Clean-Architecture
  Instagram Clone with Flutter and Firebase, with Bloc state-management, Clean Code & Clean Architecture.
 
+## [Watch video preview for project on Linkedin](https://www.linkedin.com/posts/radyhaggag_flutter-bloc-instagram-activity-7031091087498784768-l8jc?utm_source=share&utm_medium=member_desktop)
+
+
 ## Features:
 - Flutter bloc
 - Clean architecture and clean code.
