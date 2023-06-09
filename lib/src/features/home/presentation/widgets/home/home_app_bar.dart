@@ -6,7 +6,7 @@ import '../../../../../core/utils/app_enums.dart';
 import '../../../../../core/utils/app_size.dart';
 import '../../../../../core/utils/app_strings.dart';
 
-class HomeScreenAppBar extends StatelessWidget with PreferredSizeWidget {
+class HomeScreenAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeScreenAppBar({Key? key}) : super(key: key);
 
   @override

@@ -15,13 +15,13 @@ class ReelShimmer extends StatelessWidget {
           width: context.width,
           height: context.height,
         ),
-        Padding(
-          padding: const EdgeInsets.all(AppSize.s10),
+        const Padding(
+          padding: EdgeInsets.all(AppSize.s10),
           child: Align(
             alignment: Alignment.centerRight,
             child: Column(
               mainAxisSize: MainAxisSize.min,
-              children: const [
+              children: [
                 CircleShimmer(radius: AppSize.s20),
                 SizedBox(height: AppSize.s15),
                 CircleShimmer(radius: AppSize.s20),
@@ -31,8 +31,8 @@ class ReelShimmer extends StatelessWidget {
             ),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.all(AppSize.s10),
+        const Padding(
+          padding: EdgeInsets.all(AppSize.s10),
           child: Align(
             alignment: Alignment.bottomLeft,
             child: Column(
@@ -41,14 +41,14 @@ class ReelShimmer extends StatelessWidget {
               children: [
                 Row(
                   mainAxisSize: MainAxisSize.min,
-                  children: const [
+                  children: [
                     CircleShimmer(radius: AppSize.s25),
                     SizedBox(width: AppSize.s10),
                     LightShimmer(width: AppSize.s100, height: AppSize.s15),
                   ],
                 ),
-                const SizedBox(height: AppSize.s10),
-                const LightShimmer(width: AppSize.s200, height: AppSize.s15),
+                SizedBox(height: AppSize.s10),
+                LightShimmer(width: AppSize.s200, height: AppSize.s15),
               ],
             ),
           ),

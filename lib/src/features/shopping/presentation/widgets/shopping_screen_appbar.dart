@@ -3,7 +3,8 @@ import '../../../../core/utils/app_strings.dart';
 
 import '../../../../core/utils/app_size.dart';
 
-class ShoppingScreenAppBar extends StatelessWidget with PreferredSizeWidget {
+class ShoppingScreenAppBar extends StatelessWidget
+    implements PreferredSizeWidget {
   const ShoppingScreenAppBar({super.key});
 
   @override

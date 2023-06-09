@@ -80,10 +80,10 @@ class PostShimmer extends StatelessWidget {
     return Card(
       child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.all(AppSize.s5),
+          const Padding(
+            padding: EdgeInsets.all(AppSize.s5),
             child: Row(
-              children: const [
+              children: [
                 CircleShimmer(radius: AppSize.s20),
                 SizedBox(width: AppSize.s10),
                 LightShimmer(width: AppSize.s100, height: AppSize.s15),
@@ -99,8 +99,8 @@ class PostShimmer extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       CircleShimmer(radius: AppSize.s15),
                       SizedBox(width: AppSize.s10),
                       CircleShimmer(radius: AppSize.s15),

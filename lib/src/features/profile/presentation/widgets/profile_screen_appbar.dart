@@ -6,7 +6,8 @@ import '../../../../core/domain/entities/person/person_info.dart';
 import '../../../../core/utils/app_size.dart';
 import '../bloc/profile_bloc.dart';
 
-class ProfileScreenAppBar extends StatelessWidget with PreferredSizeWidget {
+class ProfileScreenAppBar extends StatelessWidget
+    implements PreferredSizeWidget {
   const ProfileScreenAppBar({super.key, required this.personInfo});
 
   final PersonInfo personInfo;

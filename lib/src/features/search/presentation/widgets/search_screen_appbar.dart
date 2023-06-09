@@ -5,7 +5,8 @@ import '../../../../core/utils/app_strings.dart';
 import '../../../../core/utils/app_size.dart';
 import '../bloc/search_bloc.dart';
 
-class SearchScreenAppBar extends StatelessWidget with PreferredSizeWidget {
+class SearchScreenAppBar extends StatelessWidget
+    implements PreferredSizeWidget {
   const SearchScreenAppBar({super.key});
 
   @override

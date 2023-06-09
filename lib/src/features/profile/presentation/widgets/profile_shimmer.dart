@@ -19,8 +19,8 @@ class ProfileShimmer extends StatelessWidget {
         children: [
           Row(
             children: [
-              Column(
-                children: const [
+              const Column(
+                children: [
                   CircleShimmer(radius: AppSize.s40),
                   SizedBox(height: AppSize.s10),
                   LightShimmer(
@@ -34,8 +34,8 @@ class ProfileShimmer extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: List.generate(
                     3,
-                    (index) => Column(
-                      children: const [
+                    (index) => const Column(
+                      children: [
                         LightShimmer(
                           height: AppSize.s15,
                           width: AppSize.s30,
@@ -58,8 +58,8 @@ class ProfileShimmer extends StatelessWidget {
             height: AppSize.s30,
           ),
           const SizedBox(height: AppSize.s20),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Expanded(child: LightShimmer(height: AppSize.s30)),
               SizedBox(width: AppSize.s10),
               Expanded(child: LightShimmer(height: AppSize.s30)),

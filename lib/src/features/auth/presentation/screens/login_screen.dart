@@ -50,9 +50,9 @@ class _LoginScreenState extends State<LoginScreen> {
             width: context.width,
             height: context.mainHeight,
             alignment: Alignment.center,
-            child: SingleChildScrollView(
+            child: const SingleChildScrollView(
               child: Column(
-                children: const [
+                children: [
                   Image(
                     image: AssetImage(AppImages.appName),
                     height: AppSize.s100,

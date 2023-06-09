@@ -176,16 +176,13 @@ class RemoteProfileDatasource implements BaseRemoteProfileDatasource {
   Future<String> updateProfile(PersonInfo params) async {
     try {
       String? imageUrl;
-      if (imageUrl != null) {
-        await storage
-            .ref()
-            .child(
-                'profile/images/${params.uid}/${DateTime.now().toLocal()}.jpg')
-            .putFile(File(params.localImagePath))
-            .then(
-              (value) async => imageUrl = await value.ref.getDownloadURL(),
-            );
-      }
+      await storage
+          .ref()
+          .child('profile/images/${params.uid}/${DateTime.now().toLocal()}.jpg')
+          .putFile(File(params.localImagePath))
+          .then(
+            (value) async => imageUrl = await value.ref.getDownloadURL(),
+          );
 
       final personInfo = params.copyWith(imageUrl: imageUrl);
 

@@ -57,8 +57,8 @@ class _SearchScreenBodyState extends State<SearchScreenBody> {
             } else if (state is SearchResultsLoading) {
               return ListView.separated(
                 itemBuilder: (context, index) {
-                  return Row(
-                    children: const [
+                  return const Row(
+                    children: [
                       CircleShimmer(radius: AppSize.s25),
                       SizedBox(width: AppSize.s20),
                       LightShimmer(

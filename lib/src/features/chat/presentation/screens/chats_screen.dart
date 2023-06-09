@@ -59,12 +59,12 @@ class ChatTileShimmer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: const CircleShimmer(radius: AppSize.s30),
+    return const ListTile(
+      leading: CircleShimmer(radius: AppSize.s30),
       title: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           LightShimmer(width: AppSize.s100, height: AppSize.s15),
           SizedBox(height: AppSize.s10),
           LightShimmer(width: AppSize.s80, height: AppSize.s13),
