@@ -5,7 +5,6 @@
 ## Video previews
 
 ### [Watch video preview for project on Linkedin](https://www.linkedin.com/posts/radyhaggag_flutter-bloc-instagram-activity-7031091087498784768-l8jc?utm_source=share&utm_medium=member_desktop)
-### [Watch video preview for project on Youtube](https://youtu.be/lzlRjIr4d3o)
 
 
 ## Features:
